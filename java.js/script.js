@@ -58,3 +58,15 @@ console.log("Second Movie Director:", movies[1].director);
 console.log("Third Movie Year:", movies[2].year);
 
 console.log("First Movie Genre:", movies[0].genre);
+
+function calculateRectangleArea(length, width = 5) {
+    return length * width;
+}
+
+let area1 = calculateRectangleArea(10);
+
+let area2 = calculateRectangleArea(10, 4);
+
+console.log(area1);
+
+console.log(area2);
